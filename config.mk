@@ -63,6 +63,13 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib/libseestraight.so:system/lib/libseestraight.so \
     $(VENDOR_PATH)/system/lib/libtruescanner.so:system/lib/libtruescanner.so \
     $(VENDOR_PATH)/system/lib64/libCameraEffectJNI.so:system/lib64/libCameraEffectJNI.so \
+    $(VENDOR_PATH)/system/lib64/libdualcameraddm.so:system/lib64/libdualcameraddm.so \
+    $(VENDOR_PATH)/system/lib64/libjni_panorama.so:system/lib64/libjni_panorama.so \
+    $(VENDOR_PATH)/system/lib64/libjni_resource_drm.so:system/lib64/libjni_resource_drm.so \
+    $(VENDOR_PATH)/system/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
+    $(VENDOR_PATH)/system/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
+    $(VENDOR_PATH)/system/lib64/libts_detected_face_jni.so:system/lib64/libts_detected_face_jni.so \
+    $(VENDOR_PATH)/system/lib64/libts_face_beautify_jni.so:system/lib64/libts_face_beautify_jni.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_group_portrait.so:system/lib64/libmorpho_group_portrait.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_groupshot.so:system/lib64/libmorpho_groupshot.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
