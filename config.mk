@@ -16,7 +16,29 @@ VENDOR_PATH := vendor/xiaomi/MiuiCamera
 
 PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/etc/device_features/wayne.xml:system/etc/device_features/wayne.xml \
-    $(VENDOR_PATH)/system/etc/default-permissions/miuicamera-permissions.xml:system/etc/default-permissions/miuicamera-permissions.xml \
+    $(VENDOR_PATH)/system/etc/MIUI_Bold.ttf:system/etc/MIUI_Bold.ttf \
+    $(VENDOR_PATH)/system/etc/MIUI_Normal.ttf:system/etc/MIUI_Normal.ttf \
+    $(VENDOR_PATH)/system/etc/MIUI_Time.ttf:system/etc/MIUI_Time.ttf \
+    $(VENDOR_PATH)/system/etc/age_gender_bg:system/etc/age_gender_bg \
+    $(VENDOR_PATH)/system/etc/dualcamera.png:system/etc/dualcamera.png \
+    $(VENDOR_PATH)/system/etc/face_goodly_208_180:system/etc/face_goodly_208_180 \
+    $(VENDOR_PATH)/system/etc/face_ravishing_238_224:system/etc/face_ravishing_238_224 \
+    $(VENDOR_PATH)/system/etc/face_splendid_274_200:system/etc/face_splendid_274_200 \
+    $(VENDOR_PATH)/system/etc/people_gender.dat:system/etc/people_gender.dat \
+    $(VENDOR_PATH)/system/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
+    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.full.xml:/system/etc/permissions/android.hardware.camera.full.xml \
+    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.raw.xml:/system/etc/permissions/android.hardware.camera.raw.xml \
+    $(VENDOR_PATH)/system/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
+    $(VENDOR_PATH)/system/lib/libjni_load_serinum.so:system/lib/libjni_load_serinum.so \
+    $(VENDOR_PATH)/system/lib/libjni_panorama.so:system/lib/libjni_panorama.so \
+    $(VENDOR_PATH)/system/lib/libjni_resource_drm.so:system/lib/libjni_resource_drm.so \
+    $(VENDOR_PATH)/system/lib/libjni_trackingfocus.so:system/lib/libjni_trackingfocus.so \
+    $(VENDOR_PATH)/system/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+    $(VENDOR_PATH)/system/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
+    $(VENDOR_PATH)/system/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
+    $(VENDOR_PATH)/system/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
+    $(VENDOR_PATH)/system/lib/libts_face_beautify_jni.so:system/lib/libts_face_beautify_jni.so \
+    $(VENDOR_PATH)/system/lib/libwhetstone_jni.so:system/lib/libwhetstone_jni.so \
     $(VENDOR_PATH)/system/lib/libCameraEffectJNI.so:system/lib/libCameraEffectJNI.so \
     $(VENDOR_PATH)/system/lib/libblurbuster.so:system/lib/libblurbuster.so \
     $(VENDOR_PATH)/system/lib/libfiltergenerator.so:system/lib/libfiltergenerator.so \
@@ -46,6 +68,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib64/libmorpho_memory_allocator.so:system/lib64/libmorpho_memory_allocator.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_panorama.so:system/lib64/libmorpho_panorama.so \
     $(VENDOR_PATH)/system/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
-
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.odex:system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.odex \
+    $(VENDOR_PATH)/system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.vdex:system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.vdex \
 PRODUCT_PACKAGES += \
     MiuiCamera
