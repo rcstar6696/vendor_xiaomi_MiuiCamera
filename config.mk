@@ -26,8 +26,8 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/etc/face_splendid_274_200:system/etc/face_splendid_274_200 \
     $(VENDOR_PATH)/system/etc/people_gender.dat:system/etc/people_gender.dat \
     $(VENDOR_PATH)/system/etc/watermark_font_2300_3199.dat:system/etc/watermark_font_2300_3199.dat \
-    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.full.xml:/system/etc/permissions/android.hardware.camera.full.xml \
-    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.raw.xml:/system/etc/permissions/android.hardware.camera.raw.xml \
+    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.full.xml:system/etc/permissions/android.hardware.camera.full.xml \
+    $(VENDOR_PATH)/system/etc/permissions/android.hardware.camera.raw.xml:system/etc/permissions/android.hardware.camera.raw.xml \
     $(VENDOR_PATH)/system/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     $(VENDOR_PATH)/system/lib/libjni_load_serinum.so:system/lib/libjni_load_serinum.so \
     $(VENDOR_PATH)/system/lib/libjni_panorama.so:system/lib/libjni_panorama.so \
