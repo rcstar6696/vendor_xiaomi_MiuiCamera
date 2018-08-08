@@ -77,5 +77,7 @@ PRODUCT_COPY_FILES += \
     $(VENDOR_PATH)/system/lib64/libmorpho_panorama_gp.so:system/lib64/libmorpho_panorama_gp.so \
     $(VENDOR_PATH)/system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.odex:system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.odex \
     $(VENDOR_PATH)/system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.vdex:system/priv-app/MiuiCamera/oat/arm64/MiuiCamera.vdex \
-PRODUCT_PACKAGES += \
+
+	
+    PRODUCT_PACKAGES += \
     MiuiCamera
